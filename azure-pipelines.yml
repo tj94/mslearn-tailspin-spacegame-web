@@ -34,7 +34,7 @@ steps:
   displayName: 'Run gulp tasks'
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
-  displayName: 'Write build info'
+  displayName: 'Write all build info'
   workingDirectory: $(wwwrootDir)
 
 - task: DotNetCoreCLI@2
