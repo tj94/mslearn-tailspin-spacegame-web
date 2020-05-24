@@ -44,7 +44,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: SonarCloudPrepare@1
-  displayName: 'Prepare SonarCloud Analysis'
+  displayName: 'Prepare SonarCloud analysis'
   inputs:
     SonarCloud: 'SonarCloud ''
     organization: '$(SonarOrganization)'
